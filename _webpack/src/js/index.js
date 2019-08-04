@@ -19,8 +19,8 @@ app.loader.add('bunny', 'assets/bunny.png').load((loader, resources) => {
     bunny.y = app.renderer.height / 2;
 
     // Rotate around the center
-    bunny.anchor.x = 0.5;
-    bunny.anchor.y = 0.5;
+    bunny.anchor.x = 0.7;
+    bunny.anchor.y = 0.3;
 
     // Add the bunny to the scene we are building
     app.stage.addChild(bunny);
